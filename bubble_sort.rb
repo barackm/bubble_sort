@@ -11,7 +11,6 @@ def bubble_sort(arr)
   end
   arr
 end
-
 puts bubble_sort([9, 7, 3, 8, 1])
 
 # bubble_sort_by
@@ -33,5 +32,4 @@ end
 bubble_sort_in_action = bubble_sort_by(%w[hi hello hey]) do |left, right|
   left.length - right.length
 end
-
 puts bubble_sort_in_action
